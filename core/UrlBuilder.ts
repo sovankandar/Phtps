@@ -1,0 +1,31 @@
+import { HttpClientConfig } from '../config/types';
+
+export class UrlBuilder {
+  public static build(config: HttpClientConfig): string {
+    const { baseURL, url = '', params } = config;
+    
+    let fullUrl = '';
+    
+    if (url.startsWith('http')) {
+      fullUrl = url;
+    } else {
+      const base = baseURL ? baseURL.replace(/\/+$/, '') : '';
+      const path = url.startsWith('/') ? url : `/${url}`;
+      fullUrl = base ? `${base}${path}` : url;
+    }
+
+    if (params && Object.keys(params).length > 0) {
+      const searchParams = new URLSearchParams();
+      Object.entries(params).forEach(([key, value]) => {
+        if (value !== undefined && value !== null) {
+          searchParams.append(key, String(value));
+        }
+      });
+      const queryString = searchParams.toString();
+      if (queryString) {
+        fullUrl += (fullUrl.indexOf('?') !== -1 ? '&' : '?') + queryString;
+      }
+    }
+    return fullUrl || '/';
+  }
+}

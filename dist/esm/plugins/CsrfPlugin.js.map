@@ -1,0 +1,1 @@
+{"version":3,"file":"CsrfPlugin.js","sourceRoot":"","sources":["../../../plugins/CsrfPlugin.ts"],"names":[],"mappings":"AAEA,MAAM,CAAC,MAAM,UAAU,GAAG,GAAgB,EAAE;IAC1C,OAAO;QACL,IAAI,EAAE,MAAM;QACZ,OAAO,EAAE,CAAC,OAAO,EAAE,EAAE;YACnB,qEAAqE;YACrE,4EAA4E;QAC9E,CAAC;KACF,CAAC;AACJ,CAAC,CAAC"}

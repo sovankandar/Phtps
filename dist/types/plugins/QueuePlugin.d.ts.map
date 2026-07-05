@@ -1,0 +1,1 @@
+{"version":3,"file":"QueuePlugin.d.ts","sourceRoot":"","sources":["../../../plugins/QueuePlugin.ts"],"names":[],"mappings":"AAAA,OAAO,EAAe,WAAW,EAAE,MAAM,iBAAiB,CAAC;AAG3D,MAAM,WAAW,kBAAkB;IACjC;;;OAGG;IACH,WAAW,CAAC,EAAE,MAAM,CAAC;CACtB;AAED;;;GAGG;AACH,eAAO,MAAM,WAAW,GAAI,UAAU,kBAAkB,KAAG,WAO1D,CAAC"}

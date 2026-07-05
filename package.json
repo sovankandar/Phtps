@@ -1,0 +1,84 @@
+{
+  "name": "phtps",
+  "version": "1.0.0",
+  "description": "A modern HTTP client built on native fetch — with plugins for retry, auth, cache, queue, encryption, streaming (SSE/NDJSON), pagination, and payment security.",
+  "author": {
+    "name": "Phtps Contributors"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/your-username/phtps#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/phtps.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/phtps/issues"
+  },
+  "keywords": [
+    "http",
+    "http-client",
+    "fetch",
+    "axios-alternative",
+    "retry",
+    "cache",
+    "queue",
+    "sse",
+    "streaming",
+    "ndjson",
+    "pagination",
+    "encryption",
+    "request-deduplication",
+    "typescript",
+    "browser",
+    "node"
+  ],
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js",
+      "types": "./dist/types/index.d.ts"
+    },
+    "./plugins": {
+      "import": "./dist/esm/plugins/index.js",
+      "require": "./dist/cjs/plugins/index.js",
+      "types": "./dist/types/plugins/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json && tsc -p tsconfig.cjs.json",
+    "build:types": "tsc -p tsconfig.types.json",
+    "dev": "tsc -p tsconfig.build.json --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "coverage": "vitest run --coverage",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run typecheck && npm run lint && npm run test && npm run build",
+    "release": "npm run prepublishOnly && npm publish"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "@vitest/coverage-v8": "^1.0.0",
+    "eslint": "^9.0.0",
+    "msw": "^2.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
+}
