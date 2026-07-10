@@ -14,10 +14,7 @@ Only the latest stable release receives security fixes.
 
 **Please do not report security vulnerabilities in public GitHub issues.**
 
-If you discover a security vulnerability in Phtps, report it privately:
-
-**Email:** security@your-domain.com  
-**Subject:** `[SECURITY] Phtps — <brief description>`
+If you discover a security vulnerability in Phtps, please report it privately by contacting the maintainer through GitHub.
 
 Include in your report:
 - Description of the vulnerability
@@ -27,9 +24,9 @@ Include in your report:
 
 ### What happens next
 
-- You will receive an acknowledgement within **48 hours**
-- We will investigate and aim to release a patch within **7 days** for critical issues
-- You will be credited in the release notes (unless you prefer to remain anonymous)
+- Your report will be acknowledged as soon as reasonably possible.
+- The vulnerability will be investigated, and a fix will be prioritized based on its severity.
+- If appropriate, you may be credited in the release notes unless you prefer to remain anonymous.
 
 ---
 
@@ -58,4 +55,4 @@ Phtps uses the **Web Crypto API** (`crypto.subtle`) exclusively for all cryptogr
 - **Salt:** Random 16 bytes per encryption call (not reused)
 - **IV:** Random 12 bytes per encryption call (not reused)
 
-If you identify a weakness in this implementation, that is high priority — please report it.
+If you identify a weakness in this implementation, that is high priority — please report it privately.
