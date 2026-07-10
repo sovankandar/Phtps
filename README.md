@@ -4,7 +4,7 @@
 Plugins for retry, auth, cache, deduplication, queue, encryption, streaming (SSE + NDJSON), pagination, and payment security. Zero dependencies. Full TypeScript.
 
 ```bash
-npm install phtps
+npm install @pings/phtps
 ```
 
 ---
@@ -201,6 +201,15 @@ Full documentation: **[https://phtps.dev/docs](https://phtps.dev/docs)**
 - [Streaming guide](https://phtps.dev/docs/streaming)
 - [Writing a plugin](https://phtps.dev/docs/custom-plugin)
 - [Migration from Axios](https://phtps.dev/docs/migration)
+
+---
+
+## Author
+
+Created and maintained by **Sovan Kandar**.
+
+- GitHub: https://github.com/sovankandar
+- npm: https://www.npmjs.com/sovankandar
 
 ---
 
