@@ -19,9 +19,9 @@ The following are not acceptable:
 
 ## Enforcement
 
-If you experience or witness unacceptable behaviour, report it to: **conduct@your-domain.com**
+If you experience or witness unacceptable behaviour, please open a private discussion or contact the maintainer through GitHub.
 
-Reports will be reviewed within 48 hours. Confirmed violations result in removal from the project.
+Reports will be reviewed as soon as reasonably possible.
 
 ---
 
