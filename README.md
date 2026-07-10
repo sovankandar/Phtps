@@ -219,4 +219,6 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## License
 
-[MIT](./LICENSE) © 2026 Phtps Contributors
+MIT License
+
+Copyright (c) 2026 sovan kandar
