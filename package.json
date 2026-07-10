@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "description": "A modern HTTP client built on native fetch — with plugins for retry, auth, cache, queue, encryption, streaming (SSE/NDJSON), pagination, and payment security.",
   "author": {
-    "name": "Phtps Contributors"
+    "name": "Sovan Kandar"
   },
   "license": "MIT",
-  "homepage": "https://github.com/your-username/phtps#readme",
+  "homepage": "https://github.com/sovankandar/phtps#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-username/phtps.git"
+    "url": "git+https://github.com/sovankandar/phtps.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/phtps/issues"
+    "url": "https://github.com/sovankandar/phtps/issues"
   },
   "keywords": [
     "http",
